@@ -1,0 +1,200 @@
+:host {
+  display: block;
+  height: 100vh; /* full viewport height */
+  overflow: hidden; /* prevent page scroll */
+}
+
+.app-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.nav-links button {
+//   color: white; // Toolbar buttons white
+  text-transform: none;
+  font-weight: 500;
+}
+
+.active-link {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}
+
+.main-content {
+  padding: 2rem;
+  background: var(--mat-sys-surface-container, #fafafa);
+  min-height: calc(100vh - 64px);
+}
+
+.portfolio-card {
+  margin-top: 2rem;
+  border-radius: 12px;
+}
+
+.portfolio-frame {
+  width: 100%;
+  height: 600px;
+  border: none;
+  border-radius: 12px;
+}
+.author-card {
+//   margin-top: 2rem;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.author-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-image: url('/assets/Hardik-soni.jpeg');  /* <-- note the leading slash */
+  background-size: cover;
+  background-position: center;
+}
+.main-content {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.content-wrapper {
+  display: flex;
+  gap: 2rem;             /* space between content and sidebar */
+  width: 100%;
+  max-width: 1200px;     /* limit width for larger screens */
+}
+
+/* Left: Demo content takes 70% of space */
+.demo-content {
+  flex: 0 0 60%;
+}
+
+/* Right: Author card sidebar takes 30% */
+.author-sidebar {
+  flex: 0 0 60%;
+}
+
+/* Optional: make Author Card avatar circular */
+.author-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #3f51b5; /* placeholder color */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Responsive: stack on mobile */
+@media (max-width: 900px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+  .demo-content, .author-sidebar {
+    flex: 1 1 100%;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .content-wrapper {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .demo-content, .author-sidebar {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-content {
+    padding: 0.5rem;
+  }
+  .author-avatar {
+    width: 48px;
+    height: 48px;
+  }
+  .author-card {
+    padding: 0.75rem;
+  }
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.desktop-only {
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  .mobile-menu {
+    display: inline-flex;
+  }
+  .desktop-only {
+    display: none;
+  }
+}
+
+
+:host {
+  display: block;
+  height: 100vh; /* full viewport */
+}
+
+.sidenav-container {
+  height: calc(100vh - 64px); /* subtract toolbar height */
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Footer */
+.app-footer {
+  text-align: center;
+  padding: 0.75rem;
+  background: #f5f5f5;
+  font-size: 0.9rem;
+}
+
+/* Toolbar mobile / desktop */
+.mobile-menu { display: none; }
+.desktop-only { display: flex; }
+
+@media (max-width: 900px) {
+  .content-wrapper { flex-direction: column; gap: 1.5rem; }
+  .demo-content, .author-sidebar { flex: 1 1 100%; }
+  .mobile-menu { display: inline-flex; }
+  .desktop-only { display: none; }
+}
+
+@media (max-width: 600px) {
+  .author-avatar { width: 48px; height: 48px; }
+  .author-card { padding: 0.75rem; }
+}
+.app-title-link {
+  text-decoration: none;  /* remove underline */
+  color: inherit;         /* inherit toolbar text color */
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.app-title-link:hover {
+  opacity: 0.85;          /* subtle hover effect */
+}
+button.active-link {
+  background-color: rgba(255, 255, 255, 0.2); /* subtle highlight */
+  border-radius: 4px;
+}
+
+/* Optional hover effect */
+button.mat-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
