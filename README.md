@@ -28,7 +28,8 @@ This repo demonstrates **Angular 18 Signals** and other features with clean, int
 
 ## 📸 Screenshots
 
-> Add a few screenshots of your UI here (put them under `assets/screenshots`)
+### Signal Demo
+![Signal Demo](src/assets/screenshots/Angular18FeaturesExamples.png)
 
 ---
 
