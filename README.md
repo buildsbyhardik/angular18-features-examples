@@ -1,27 +1,70 @@
-# Angular18FeaturesExamples
+# 🌟 Angular 18 Features & Signals Demos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.21.
+A **practical demo project** showcasing the latest **Angular 18 features** with a focus on **Signals**, **Computed properties**, **Effects**, and **new template syntaxes**.  
 
-## Development server
+👉 Live Preview (coming soon with GitHub Pages or Vercel)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🚀 Features Covered
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This repo demonstrates **Angular 18 Signals** and other features with clean, interactive examples:
 
-## Build
+| Feature | Demo Route | Description |
+|---------|------------|-------------|
+| 🔢 Counter | `/signals/counter-basic` | Basic counter using `signal()` |
+| 🛠 Signal Methods | `/signals/signal-methods` | Using `set()`, `update()` methods |
+| ➕ Computed | `/signals/computed-demo` | Derived state with `computed()` |
+| ⚡ Effect | `/signals/effect-demo` | Reactive side effects with `effect()` |
+| 👀 *ngIf | `/signals/ngif-demo` | Conditional rendering with signals |
+| 🔁 *ngFor | `/signals/ngfor-demo` | Iterating reactive collections |
+| 🎭 let | `/signals/let-demo` | Local variables in templates |
+| 📑 ng-template | `/signals/ng-template-demo` | Structural signals inside templates |
+| 🔗 Binding | `/signals/binding-demo` | Property & event binding with signals |
+| 🔄 Two-way | `/signals/twoway-demo` | Bi-directional binding with signals |
+| 🧮 Computed Template | `/signals/computed-template` | Direct computed usage inside HTML |
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 📸 Screenshots
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+> Add a few screenshots of your UI here (put them under `assets/screenshots`)
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🛠 Tech Stack
 
-## Further help
+- [Angular 18](https://angular.dev/) (latest)
+- Angular Material UI
+- Standalone Components + Signals API
+- TypeScript 5+
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+
+## 🧑‍💻 Author
+
+👋 Hi, I’m **Hardik Soni**  
+- Software Technologist & Angular Enthusiast  
+- Creator of this project  
+- Portfolio: [hardiksoni.dev](https://hardiksoni.dev)  
+
+---
+
+## 📈 SEO Keywords
+
+This project is optimized for discoverability:  
+- Angular 18 Features Demo  
+- Angular 18 Signals Example  
+- Angular Signals Computed Effect Binding  
+- Angular Standalone Components with Signals  
+- Learn Angular 18 by Examples  
+
+---
+
+## ⚡ Run Locally
+
+```bash
+git clone https://github.com/buildsbyhardik/angular18-features-examples.git
+cd angular18-features-examples
+npm install
+ng serve -o
