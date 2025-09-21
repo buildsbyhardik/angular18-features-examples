@@ -45,7 +45,7 @@ This repo demonstrates **Angular 18 Signals** and other features with clean, int
 ## 🧑‍💻 Author
 
 👋 Hi, I’m **Hardik Soni**  
-- Software Technologist & Angular Enthusiast  
+- Senior Software Technologist & Angular Enthusiast  
 - Creator of this project  
 - Portfolio: [hardiksoni.dev](https://hardiksoni.dev)  
 
